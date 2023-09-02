@@ -40,7 +40,7 @@ const Testimonials = () => {
                   borderRadius: "12px",
                   width: 200,
                   height: 300,
-                  padding: 8,
+                  padding: { xs: 4, md: 8 },
                   mx: 4,
                 }}
               >

@@ -27,6 +27,7 @@ const Footer = () => {
               background: "#a9927d",
               color: "#ffffff",
               textTransform: "capitalize",
+              zIndex: 1,
               "&:hover": {
                 background: "#ffffff",
                 color: "#a9927d",

@@ -3,7 +3,15 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 const Hero = () => {
   return (
     <>
-      <Box sx={{ background: "#FFFFFF", color: "#000000", height: "70vh" }}>
+      <Box
+        sx={{
+          background: "#FFFFFF",
+          color: "#000000",
+          height: { xs: "unset", md: "70vh" },
+          miHeight: { xs: "70vh", md: "unset" },
+          py: { xs: 10, md: 0 },
+        }}
+      >
         <Container
           sx={{
             alignItems: "center",
