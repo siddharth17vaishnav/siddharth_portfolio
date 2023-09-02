@@ -1,20 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
 
-*{
+* {
     font-family: 'Unica One', cursive;
-    padding:0;
-    margin:0;
-    scroll-behavior:smooth;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
-body{
-    background-color:#000000;
-    color:#FFFFFF;
+body {
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
-a{
+a {
     text-decoration: none;
-    color:unset;
+    color: unset;
 }
 
+.swiper-slide {
+    display: block;
+
+    @media only screen and (max-width: 600px) {
+        display: flex !important;
+        justify-content: center;
+    }
+}
+
+.slide {
+    display: block;
+
+    @media only screen and (min-width: 600px) {
+        display: flex !important;
+    }
+}

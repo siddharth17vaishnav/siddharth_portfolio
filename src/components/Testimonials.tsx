@@ -39,7 +39,11 @@ const Testimonials = () => {
       >
         {testinomials.map((i) => {
           return (
-            <SwiperSlide key={i.id} style={{ margin: "0 auto" }}>
+            <SwiperSlide
+              key={i.id}
+              className="slide"
+              style={{ margin: "0 auto" }}
+            >
               <Box
                 sx={{
                   background: "#181613",
