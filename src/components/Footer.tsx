@@ -35,7 +35,7 @@ const Footer = () => {
               },
             }}
           >
-            Contact Siddharth
+            <a href="mailto:siddharth17vaishnav@gmail.com">Contact Siddharth</a>
           </Button>
           <Box
             sx={{
