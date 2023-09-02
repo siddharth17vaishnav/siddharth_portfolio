@@ -92,6 +92,7 @@ const Hero = () => {
                   alt="CODE"
                   style={{ borderRadius: "26px", overflow: "hidden" }}
                 />
+                
               </Tilt>
             </Grid>
           </Grid>
