@@ -4,7 +4,8 @@
 *{
     font-family: 'Unica One', cursive;
     padding:0;
-    margin:0
+    margin:0;
+    scroll-behavior:smooth;
 }
 
 body{
@@ -16,3 +17,4 @@ a{
     text-decoration: none;
     color:white;
 }
+

@@ -61,7 +61,7 @@ const Hero = () => {
                   margin: { xs: "10px auto", md: "10px" },
                 }}
               >
-                Explore Genius
+                <a href="#portfolio">Explore Genius</a>
               </Box>
             </Grid>
             <Grid

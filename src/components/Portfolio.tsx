@@ -19,7 +19,7 @@ const Portfolio = () => {
     window.open(url, "_blank");
   };
   return (
-    <Container sx={{ py: 10 }}>
+    <Container sx={{ py: 10 }} id="portfolio">
       <Typography fontFamily={"Unica One"} fontSize={36} my={1}>
         PORTFOLIO
       </Typography>
